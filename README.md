@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To Start the project:
 
-Things you may want to cover:
+* `bundle install`
 
-* Ruby version
+* `bundle exec rake db:migrate`
 
-* System dependencies
+* `bundle exec rake db:populate_sample_data`
 
-* Configuration
+* `rails server`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* go to `http://localhost:3000/todos`
